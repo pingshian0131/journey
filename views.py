@@ -48,7 +48,7 @@ def handle_follow(event):
 def handle_post_message(event):
     print ("event =" , event)
     date, time = event.postback.data.split('&')
-    more_data = sche_post.main(date, time)
+    more_data = sche_post.main(date.split('=')[1], time.split('=')[1])
 
     line_bot_api.reply_message(event.reply_token, TextSendMessage(text=more_data))
 
