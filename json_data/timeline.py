@@ -93,7 +93,7 @@ def make_json():
         "contents": [
           {
             "type": "text",
-            "text": "11:00",
+            "text": "1100",
             "size": "sm",
             "gravity": "center"
           },
@@ -133,7 +133,7 @@ def make_json():
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "date=1206&time=11:00"
+              "data": "date=1206&time=1100"
             }
           }
         ],
@@ -209,7 +209,7 @@ def make_json():
             "contents": [
               {
                 "type": "text",
-                "text": "12:20",
+                "text": "1220",
                 "gravity": "center",
                 "size": "sm"
               }
@@ -252,7 +252,7 @@ def make_json():
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "date=1206&time=12:20"
+              "data": "date=1206&time=1220"
             }
           }
         ],
@@ -323,7 +323,7 @@ def make_json():
         "contents": [
           {
             "type": "text",
-            "text": "14:20",
+            "text": "1420",
             "gravity": "center",
             "size": "sm",
             "color": "#BE77FF"
@@ -365,7 +365,7 @@ def make_json():
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "date=1206&time=14:20"
+              "data": "date=1206&time=1420"
             }
           }
         ],
@@ -436,7 +436,7 @@ def make_json():
         "contents": [
           {
             "type": "text",
-            "text": "17:50",
+            "text": "1750",
             "gravity": "center",
             "size": "sm"
           },
@@ -476,7 +476,7 @@ def make_json():
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "date=1206&time=17:50"
+              "data": "date=1206&time=1750"
             }
           }
         ],
@@ -547,7 +547,7 @@ def make_json():
         "contents": [
           {
             "type": "text",
-            "text": "19:00",
+            "text": "1900",
             "gravity": "center",
             "size": "sm",
             "color": "#BE77FF"
@@ -589,7 +589,7 @@ def make_json():
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "date=1206&time=19:00"
+              "data": "date=1206&time=1900"
             }
           }
         ],
@@ -660,7 +660,7 @@ def make_json():
         "contents": [
           {
             "type": "text",
-            "text": "22:00",
+            "text": "2200",
             "gravity": "center",
             "size": "sm"
           },
@@ -700,7 +700,7 @@ def make_json():
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "date=1206&time=22:00"
+              "data": "date=1206&time=2200"
             }
           }
         ],

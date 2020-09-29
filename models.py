@@ -32,7 +32,7 @@ class Sche(db.Model):
     __tablename__ = 'sche'
     uid = Column(Integer, primary_key=True, autoincrement=True)
     date = Column(String(4), nullable=False, default='0101')
-    time = Column(String(5), nullable=False, default='00:00')
+    time = Column(String(4), nullable=False, default='0000')
     title = Column(String(80), nullable=False)
     dest = Column(String(20), nullable=False)
     location = Column(String(100), nullable=False)
