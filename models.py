@@ -31,6 +31,7 @@ class users(db.Model):
 class Sche(db.Model):
     __tablename__ = 'sche'
     uid = Column(Integer, primary_key=True, autoincrement=True)
+    day = Column(Integer)
     date = Column(String(4), nullable=False, default='0101')
     time = Column(String(4), nullable=False, default='0000')
     title = Column(String(80), nullable=False)
